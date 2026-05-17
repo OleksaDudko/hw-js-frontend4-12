@@ -1,0 +1,2 @@
+let e=new Date("June 15, 2026, 00:00:00"),t=document.querySelector('[data-value="days"]'),a=document.querySelector('[data-value="hours"]'),o=document.querySelector('[data-value="mins"]'),n=document.querySelector('[data-value="secs"]'),l=setInterval(()=>{let r=e-new Date;if(r<=0)return void clearInterval(l);let u=Math.floor(r/864e5),c=Math.floor(r%864e5/36e5),d=Math.floor(r%36e5/6e4),v=Math.floor(r%6e4/1e3);t.textContent=u<10?"0"+u:u,a.textContent=c<10?"0"+c:c,o.textContent=d<10?"0"+d:d,n.textContent=v<10?"0"+v:v},1e3);
+//# sourceMappingURL=hw-js-frontend4-12.a43bd2ff.js.map
